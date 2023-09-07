@@ -20,7 +20,7 @@ $email = "";
 $web = "";
 $pesan = "";
 $telp = "";
-
+echo " hallo yan.<br/>";
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
   if (empty($_POST["nama"]))
