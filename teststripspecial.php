@@ -21,11 +21,12 @@ $web = "";
 $pesan = "";
 $telp = "";
 echo " hallo yan.<br/>";
+echo "<br/> ini adalah keadilan <br/>";
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
   if (empty($_POST["nama"]))
   {
-    $error_nama = "Nama tidak boleh kosong";
+    $error_nama = "Nama tidak boleh kosong"; 
   }
   else
   {
